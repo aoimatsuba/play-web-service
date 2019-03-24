@@ -1,0 +1,10 @@
+
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+GET     /index                     controllers.Application.index
+
+GET     /getStock                  controllers.Application.getStock
+
+POST    /saveStock                 controllers.Application.saveStock
